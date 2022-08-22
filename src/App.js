@@ -1,5 +1,5 @@
-import "./components/Directories/categories.styles.scss";
-import Directories from "./components/Directories/directories.item.component";
+import "./components/directory/directory.styles.scss";
+import Directory from "./components/directory/directory.component";
 
 const App = () => {
   const categories = [
@@ -30,7 +30,7 @@ const App = () => {
     },
   ];
 
-  return <Directories categories={categories} />;
+  return <Directory categories={categories} />;
 };
 
 export default App;
